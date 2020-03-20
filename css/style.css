@@ -1,0 +1,46 @@
+html, body {
+    height:100%;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+#top_strony{
+    width: 100%;
+    height: 100%;
+    background: url(../images/ragoll.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color:rgb(245,245,245);
+    overflow: auto;
+}
+#top_strony h1{
+    margin-top: 15%;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 0 0 3px rgb(10,10,10);
+}
+#top_strony h2{
+    font-size:2em;
+    font-weight: normal;
+    text-shadow: 0 0 3px rgb(10,10,10);
+}
+#top_strony p {
+ margin-top: 18%;
+}
+#top_strony p a{
+    padding: 25px 80px;
+    background: rgb(245,245,245);
+    color: rgb(83,62,26);
+    text-decoration: none;
+    transition: background .9s, color .9s;
+}
+#top_strony p a:hover{
+    background: rgb(83,62,26);
+color: rgb(245,245,245);
+}
