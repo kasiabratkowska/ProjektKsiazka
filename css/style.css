@@ -10,6 +10,20 @@ h1, h2{
     margin: 0;
     padding: 0;
 }
+/*MENU*/
+#kon_menu{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: rgb(245,245,245);
+    box-shadow: 0 0 5px rgb(10,10,10);
+}
+.linki_menu{
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
 #top_strony{
     width: 100%;
     height: 100%;

@@ -1,0 +1,20 @@
+@media screen and(max-width: 768px){
+    #top_strony{
+        height: 600px;
+        background: url(../images/ragoll_mobile.jpg) no-repeat center;
+    }
+#top_strony h1{
+    font-size: 2.5em;
+    margin-top: 25%;
+}
+#top_strony h2{
+    font-size: 1.5em;
+    line-height: 30px;
+}
+#top_strony p{
+    margin-top: 35%;
+}
+#top_strony p a{
+    padding: 20px 60px;
+}
+}
