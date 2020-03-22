@@ -1,4 +1,23 @@
-@media screen and(max-width: 768px){
+@media screen and (max-width: 768px){
+   #kon_menu{
+       padding: 0;
+       margin-top: -220px;
+   }
+    .linki_menu {
+       width: 100%;
+   }
+   .linki_menu li {
+       width: 100%;
+       float: none;
+       padding: 10px 0;
+   }
+   .pokaz_menu {
+       padding: 10px;
+       display: block;
+       background: rgb(83,62,26);
+       text-align: center;
+       color: rgb(245,245,245);
+   }
     #top_strony{
         height: 600px;
         background: url(../images/ragoll_mobile.jpg) no-repeat center;
