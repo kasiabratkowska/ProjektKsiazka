@@ -24,7 +24,7 @@ p, h1, h2{
 .dzial_opis{
     text-align: center;
     margin-bottom: 5%;
-    line-height: 5px;
+    line-height: 45px;
 }
 /*MENU*/
 #kon_menu{
@@ -72,7 +72,7 @@ padding: 2.5%;
     list-style: none;
     font-size:.9em;
 }
-books_oferta ul li{
+.books_oferta ul li{
     padding: 3px 0;
 }
 .cena_oferta{
@@ -139,3 +139,15 @@ color: rgb(245,245,245);
     background: rgb(245,245,245);
     overflow: auto;
 }
+/*DIETETYK*/
+#kon_dietetyk{
+    width: 100%;
+    padding-bottom: 25%;
+    background: url(../images/ragoll2.jpg) no-repeat center;
+    background-size: cover;
+    overflow: auto;
+}
+#kon_dietetyk .dzial_naglowek #kon_dietetyk .dzial_opis{
+    
+}
+

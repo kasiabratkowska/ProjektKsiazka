@@ -1,5 +1,16 @@
 @media screen and (max-width: 768px){
-   #kon_menu{
+  .books_oferta{
+      width: 43.3%;
+      height: auto;
+      margin-bottom: 2.3%;
+  }
+  .books_oferta:nth-of-type(2n){
+      margin-right: 0;
+  }
+    .srodkuj{
+       width: 95%;
+   }
+    #kon_menu{
        padding: 0;
        margin-top: -220px;
    }
@@ -13,6 +24,7 @@
    }
    .dzial_naglowek{
        line-height: 45px;
+       margin: 5% 0;
     
     }
     .dzial_opis{
@@ -49,5 +61,10 @@
     height: auto;
     float: none;
     margin-right: 0;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.books_oferta ul{
+    height: auto;
 }
 }
