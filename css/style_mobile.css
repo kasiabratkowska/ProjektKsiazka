@@ -11,6 +11,13 @@
        float: none;
        padding: 10px 0;
    }
+   .dzial_naglowek{
+       line-height: 45px;
+    
+    }
+    .dzial_opis{
+        line-height: 25px;
+    }
    .pokaz_menu {
        padding: 10px;
        display: block;
@@ -35,5 +42,12 @@
 }
 #top_strony p a{
     padding: 20px 60px;
+}
+/*OFERTA*/
+.books_oferta{
+    width: 96%;
+    height: auto;
+    float: none;
+    margin-right: 0;
 }
 }
