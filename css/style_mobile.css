@@ -67,4 +67,37 @@
 .books_oferta ul{
     height: auto;
 }
+/*DIETETYK*/
+.dietetyk_personalne, .dietetyk_osiagniecia{
+    width: 96%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.img_certifykat{
+    display: block;
+    width: 40%;
+    float: none;
+    margin: 0 auto;
+}
+.okienko_formularz h3{
+    text-align: center;
+}
+.okienko_formularz input{
+    width: 93%;
+    padding: 3%;
+    margin-right: 0%;
+    margin-bottom: 3%;
+}
+.okienko_formularz textarea{
+    width: 93%;
+    padding: 3%;
+}
+.wyslij_ankiete{
+    margin-top: 3%;
+}
+#kon_stopka{
+    padding: 3% 0;
+}
 }

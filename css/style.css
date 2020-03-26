@@ -148,6 +148,109 @@ color: rgb(245,245,245);
     overflow: auto;
 }
 #kon_dietetyk .dzial_naglowek #kon_dietetyk .dzial_opis{
+    color: r(255,255,255);
+    text-shadow: 0 0 3px rgb(10,10,10);
     
 }
+#kon_dietetyk h2{
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.dietetyk_personalne{
+width: 31%;
+float: left;
+margin-right: 5%;
+padding: 2%;
+background: rgb(255,255,255);
+}
 
+.dietetyk_personalne p{
+    margin-bottom: 10px;
+}
+.dietetyk_osiagniecia{
+    width: 56%;
+    float: left;
+    padding: 2%;
+    background: rgb(255,255,255);
+}
+.dietetyk_osiagniecia article{
+    margin-bottom: 40px;
+}
+.img_certifykat{
+    width: 10%;
+    float: left;
+    max-width: 398px;
+    margin-right: 15px;
+
+}
+/*MAPA*/
+#mapa{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    border-bottom: 1px solid rgb(180,180,180);
+}
+/*FORMULARZ KONTAKTOWY*/
+#kon_kontakt{
+    width: 100%;
+    padding-bottom: 2%;
+    background: rgb(245,245,245);
+    overflow: auto;
+}
+.okienko_formularz{
+    width: 97.7%;
+    padding: 1%;
+    background: rgb(250,250,250);
+    border: 1px solid rgb(200,200,200);
+}
+.okienko_formularz h3{
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.okienko_formularz input{
+    width: 47%;
+    padding: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border: 1px solid rgb(220,220,220);
+}
+.okienko_formularz input:nth-of-type(2n){
+    margin-right:0;
+}
+.okienko_formularz input:focus{
+    outline: none;
+    border: 1px solid rgb(219,192,146);
+}
+.okienko_formularz textarea{
+    width: 97.5%;
+    height: 130px;
+    padding: 1%;
+    border: 1px solid rgb(220,220,220);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    resize:none;
+}
+.okienko_formularz textarea:focus{
+    outline: none;
+    border: 1px solid rgb(219,192,146);
+}
+.wyslij_ankiete{
+    margin-top: 1%;
+    padding: 15px 30px;
+    background: rgb(83,62,26);
+    border: 1px solid rgb(83,62,26);
+    color: rgb(245,245,245);
+    cursor: pointer;
+    transition: background .5s, border .5s;
+}
+.wyslij_ankiete:hover{
+    background: rgb(56,40,14);
+    border: 1px solid rgb(56,40,14);
+}
+#kon_stopka{
+    padding: 1% 0;
+    background: rgb(56,40,14);
+    color: rgb(142,111,61);
+    text-align: center;
+    font-size: .8em;
+}
