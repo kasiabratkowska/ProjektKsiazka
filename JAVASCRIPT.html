@@ -3,7 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <title>Ogólna strona WWW </title>
+</head>
 <body>
     <h1>Zagraj w okręty!</h1>
-    <script src="statki.js"></script>
+    <!-- <script>
+        function clunk (times){
+            var num=times;
+            while (num>0){
+                display ("brzęk!");
+                num=num-1;
+            }
+        }
+        function kodoskryptoinator (size){
+            var facky=1;
+            clunkCounter=0;
+            if(size==0){
+                display ("brzęk!");
+            }else if (size==1){
+                display ("biii!!");
+            }
+            else{
+                while (size>1){
+                    facky=facky*size;
+                    size=size-1;
+                }
+            clunk(facky);
+            }
+
+        }
+        
+        function display(output){
+            console.log(output);
+            clunkCounter=clunkCounter+1;
+        }
+        var clunkCounter=0;
+        kodoskryptoinator(5);
+        console.log(clunkCounter);
+    </script>
+    <script>
+        function makePhrases(){
+            var word1=["nieprzerwane","wielowarstwowe","tysiącmetrowe","biznesowe","niepowstrzymane"]
+            var word2=["wspomagane", "wartosciowe","zorientowane", "skoncentrowane","wyrównane"]
+            var word3=["proces","rozwiązania","punkty","strategie","wizje"]
+
+            var rand1=Math.floor(Math.random()* word1.length);
+            var rand2=Math.floor(Math.random()*word2.length);
+            var rand3=Math.floor(Math.random() * word3.length);
+
+            var phrase=word1[rand1]+ "" + word2[rand2] + word3[rand3];
+            alert(phrase);
+        }
+        makePhrases();
+    </script> -->
+    <script>
+        var scores=[60,50,60,58,54,54,58,50,52,54,48,69,34,55,51,52,44,51,69,64,66,55,52,61,46,31,57,52,44,18,41,53,55,61,51,44];
+
+        var output;
+        var i=0;
+        var highScore=0;
+        while (i<scores.length){
+            var output=" Płyn do baniek nr " +i+ " wynik " + scores[i];
+            i=i+1;
+            console.log(output);
+          if(scores[i]>highScore){
+              highScore=scores[1]
+          }  
+        }
+        console.log("Liczba testów: " + scores.length);
+          console.log(" Nawiększa liczba utworzonych baniek: " + highScore);
+       
+    </script>
 </body> 
+</html> 
